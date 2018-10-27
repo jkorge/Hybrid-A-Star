@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hybrid_breadth_first.h
+iostream
+-
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/5_TrajectoryGeneration/hybrid_a_star/src/hybrid_breadth_first.cpp
+iostream
+-
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+algorithm
+-
+hybrid_breadth_first.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/5_TrajectoryGeneration/hybrid_a_star/src/hybrid_breadth_first.h
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/5_TrajectoryGeneration/hybrid_a_star/src/main.cpp
+iostream
+-
+fstream
+-
+math.h
+-
+vector
+-
+hybrid_breadth_first.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/5_TrajectoryGeneration/hybrid_a_star/src/hybrid_breadth_first.h
+
