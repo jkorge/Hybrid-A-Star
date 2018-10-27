@@ -129,7 +129,7 @@ HBF::maze_path HBF::search(vector< vector<int> > grid, vector<double> start, vec
   while(!opened.empty())
   {
 
-    sort(opened.begin(), opened.end(), [](HBF::maze_s a, HBF::maze_s b){return a.f > b.f;});
+    sort(opened.begin(), opened.end(), [](HBF::maze_s a, HBF::maze_s b){return a.f < b.f;});
     maze_s current = opened[0]; //grab first elment
     opened.erase(opened.begin()); //pop first element
 
